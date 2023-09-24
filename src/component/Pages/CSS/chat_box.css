@@ -1,0 +1,136 @@
+/* 根据您的需要添加样式文件头部信息 */
+body {
+
+    font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+  
+
+  .big_box{
+
+    width: 481%;
+    height: 991%;
+    position: absolute;
+    top: 2008%;
+    left: 115%;
+  }
+
+  .big_box_btn{
+
+    position: absolute;
+    width: 462px;
+    height:73px;
+    border:2px solid #ECECF1;
+    border-radius: 0.75rem;
+    color: black;
+    background-color: #FFFFFF;
+
+  }
+
+  .big_box_btn:hover{
+
+    cursor: pointer;
+
+    background-color: #ECECF1;
+  }
+
+  .big_box_icon{
+
+
+    position: absolute;
+    right: 16px;
+  }
+
+  .big_box_input{
+
+    height: 70px;
+    top: 3453%;
+    left: 65%;
+    border-radius: 0.75em;
+  }
+
+  .middle_box_father {
+  
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    flex-wrap: wrap;
+     
+  
+   
+}
+
+.middle_box {
+    width: 327px;
+    height: 339px;
+    background-color: pink;
+    border-radius: 1em;
+    margin: 10px; /* 添加边距，使盒子之间有空隙 */
+    position: relative;
+    top:32px;
+
+    margin-top: 43px;
+}
+
+.middle_box_top_layer{
+
+  width: 100%;
+
+  height:130px;
+
+  background-color: white;
+
+  padding-bottom: 24%;
+  /* Maintain a 1:1 aspect ratio for the image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+
+
+
+}
+
+.middle_box_image_content{
+
+  /* 此属性非常重要，这意味着容器的下内边距高度为容器宽度的62%。这可能导致容器的高度增加，以适应这个内边距，从而容纳了背景图片。 */
+  padding-bottom: 62%;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  left: 12%;
+}
+
+.down_box_description{
+
+  position: relative;
+}
+
+.middle_box_link{
+
+
+  margin-top: 20px;
+
+}
+
+.middle_box_bottom{
+
+
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+.Refresh{
+
+  position: relative;
+
+  top:420px;
+
+  left:46%;
+
+
+}

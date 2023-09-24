@@ -1,0 +1,54 @@
+/* 根据您的需要添加样式文件头部信息 */
+body {
+
+    font-family: Söhne,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  }
+  
+
+  .big_box1{
+
+    width: 481%;
+    height: 991%;
+    position: absolute;
+    top: 408%;
+    left: 115%;
+    line-height: normal;
+    overflow-y: scroll; /* 显示垂直滚动条 */
+    overflow-x: hidden; /* 隐藏水平滚动条 */
+  }
+
+
+  .user_input{
+
+
+    width: 100%;
+
+    background-color: pink;
+
+    
+  }
+
+  .robot_output{
+
+
+    background-color: aquamarine;
+  }
+
+  .external_box{
+
+    position: absolute;
+    background-color: pink;
+    display: flex;
+    width: 960px;
+    height: 300px;
+    left: 120%;
+    top: 1714%;
+    overflow: scroll;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  /* CSS文件中的样式规则 */
+.disabled-button {
+  cursor: not-allowed;
+}

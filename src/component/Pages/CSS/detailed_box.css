@@ -1,0 +1,20 @@
+.middle_box1{
+
+    width: 1101px;
+    height: 639px;
+    background-color: pink;
+    border-radius: 1em;
+    margin: 10px;
+    position: relative;
+    top: -2px;
+    margin-top: 43px;
+    left: 16%;
+}
+.middle_box_image_content1{
+
+    padding-bottom: 37%;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 30%;
+  }
